@@ -13,14 +13,14 @@ const Home = () => {
     <Box>
         <HeroBanner />
         <SearchExercises 
-          setExecises={setExercises} 
+          setExercises={setExercises} 
           bodyPart={bodyPart} 
           setBodyPart={setBodyPart}
         />
         <Exercises 
-          setExecises={setExercises} 
+          setExercises={setExercises} 
           bodyPart={bodyPart} 
-          setBodyPart={setBodyPart}/>
+          exercises={exercises}/>
     </Box>
   )
 }
