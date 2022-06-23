@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import { Button, Experimental_CssVarsProvider, Stack, Typography } from '@mui/material';
-import { textTransform } from '@mui/system';
+import { Button, Stack, Typography } from '@mui/material';
 
 
 const ExerciseCard = ({exercise}) => {
